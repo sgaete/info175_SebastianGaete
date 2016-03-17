@@ -7,10 +7,8 @@ def comparacion(x, y):
 	else:
 		return str(x)+" es igual que "+str(y)
 
-def 
-
 if __name__ == "__main__":
 	x = input("Ingrese un numero entero  ")
-	y = input("Ingrese un otro numero entero")
+	y = input("Ingrese un otro numero entero  ")
 	print (comparacion(x,y))
 
