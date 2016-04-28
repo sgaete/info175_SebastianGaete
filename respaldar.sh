@@ -14,6 +14,6 @@ D=$(date +%d)
 M=$(date +%m)
 Y=$(date +%Y)
 #creamos el nombre del archivo con la fecha y el nombre de la carpeta a respaldar
-FILENAME="$Y-$M-$D-$FUENTE"
+FILENAME=$Y"_"$M"_"$D"_"$FUENTE
 #creamos el zip y lo enviamos a la direccion de destino
 zip -r $DESTINO/$FILENAME.zip $FUENTE
